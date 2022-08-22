@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    margin: auto;
+}
+
+header {
+    background-color: #F2F2F2;
+    padding: 20px 10px;
+}
+
+.header-child-container {
+    margin-top: 10px;
+}
+
+.includes-image-container {
+    margin-top: 150px;
+}
+
+h1 {
+    color: #20a8b4;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 5px;
+}
+
+.nav-list {
+    display: inline;
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff5c0f;
+}
+
+.code {
+    color: #ff5c0f;
+}
+
+section {
+    padding: 0 5px;
+    margin-top: 70px;
+    margin-left: 0;
+}
+
+.left-side-image {
+    text-align: left;
+
+}
+
+button {
+    padding: 12px;
+    border-radius: 10px;
+    border-style: hidden;
+    color: #fff;
+    background-color: #20a8b4;
+    display: inline-block;
+    white-space: nowrap;
+    width: 100%;
+    text-align: left;
+}
+
+button:hover {
+    background-color: #ff5c0f;
+}
+
+img {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .parent-container {
+        display: flex;
+        width: 100%;
+        padding: 5px;
+        justify-content: flex-start;
+    }
+
+    .header-child-container {
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        margin-top: 0;
+    }
+
+    h1 {
+        display: inline-block;
+        white-space: nowrap;
+        margin: 20px 10px;
+    }
+
+    .nav-list {
+        list-style-type: none;
+    }
+
+    .nav-list li {
+        padding-top: 20px;
+        display: inline-block;
+        white-space: nowrap;
+    }
+
+    button {
+        margin: 20px;
+        width: 90px;
+        justify-content: flex-end;
+        text-align: right;
+    }
+
+    .includes-image-container {
+        display: flex;
+        align-items: center;
+        padding-left: 10px;
+        margin-top: 50px;
+    }
+
+    .left-side-image {
+        text-align: left;
+        width: 50%;
+    }
+
+    img {
+        display: block;
+    }
+
+}
